@@ -1,0 +1,105 @@
+{% extend "base.html" %}
+{% block title %}
+    Меню
+{% endblock title %}
+
+{% block body %}
+    <div style="text-align: center;">
+      <br>
+      <h3>Меню</h3>
+      <br>
+    </div>
+
+    <div class="container-fluid text-center table-striped">
+        <div class="row">
+
+          <div class="col" style="display: flex; flex-direction: column; align-items: center;">
+            <img src="/static/img/Маргарита.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Маргарита">
+            <b style="display: block;">№1 «Маргарита»</b>
+            <img src="/static/img/Пепероні.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Пепероні">
+            <b style="display: block;">№2 «Пепероні»</b>
+            <img src="/static/img/Гавайська.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Гавайська">
+            <b style="display: block;">№3 «Гавайська»</b>
+            <img src="/static/img/Чотири сири.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Чотири Сири">
+            <b style="display: block;">№4 «Чотири Сири»</b>
+        </div>
+          <div class="col">
+            <br><br>
+    <table class="table table-primary table-hover" style="width: 102%;">
+        <thead style="color:gold">
+          <tr style="color:gold">
+            <th scope="col">№</th>
+            <th scope="col">Назва</th>
+            <th scope="col">Склад</th>
+            <th scope="col">Вартість</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-success">
+            <th scope="row">1</th>
+            <td>Маргарита</td>
+            <td>Томатний соус, моцарела, свіжий базилік, оливкова олія</td>
+            <td>220</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">2</th>
+            <td>Пепероні </td>
+            <td>Томатний соус, моцарела, пепероні (салямі), орегано</td>
+            <td>280</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">3</th>
+            <td>Гавайська</td>
+            <td>Томатний соус, моцарела, шинка, ананаси, орегано</td>
+            <td>260</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">4</th>
+            <td>Чотири сири</td>
+            <td>Вершковий соус, моцарела, пармезан, горгондзола, дор блю</td>
+            <td>320</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">5</th>
+            <td>Карбонара</td>
+            <td>Вершковий соус, моцарела, бекон, печериці, цибуля, пармезан</td>
+            <td>290</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">6</th>
+            <td>Капричоза</td>
+            <td>Томатний соус, моцарела, шинка, печериці, оливки, артишоки, орегано</td>
+            <td>285</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">7</th>
+            <td>Діабола</td>
+            <td>Томатний соус, моцарела, гостра салямі, перець чилі, часник, оливки</td>
+            <td>295</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">8</th>
+            <td>Кватро Карне</td>
+            <td>Томатний соус, моцарела, шинка, бекон, курка, салямі, пармезан, часник, орегано</td>
+            <td>310</td>
+          </tr>
+        </table>
+        </div>
+        <div class="col" style="display: flex; flex-direction: column; align-items: center;">
+          <img src="/static/img/Карбонара.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Маргарита">
+          <b style="display: block;">№5 «Карбонара»</b>
+          <img src="/static/img/Каприічоза.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Пепероні">
+          <b style="display: block;">№6 «Капричоза»</b>
+          <img src="/static/img/Діабола.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Гавайська">
+          <b style="display: block;">№7 «Діабола»</b>
+          <img src="/static/img/Кватро Карне.png" alt="Моя перша картинка" width="150px" ALIGN="middle" title="Піцца Чотири Сири">
+          <b style="display: block;">№8 «Кварто Карне»</b>
+      </div>
+    </div>
+  </div>
+</div>
+        <br>
+        <a href="/" class="btn btn-warning">Перейти на головну сторінку</a>
+        </tbody>
+
+{% endblock body %}
